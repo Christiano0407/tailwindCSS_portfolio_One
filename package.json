@@ -1,0 +1,30 @@
+{
+  "name": "tailwindcss_portfolio_one",
+  "version": "1.0.0",
+  "description": "project_tailwindCSS",
+  "main": "./src/js/index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/main.css --watch",
+    "build:dev": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/main.css --watch",
+    "prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/main.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/tailwindCSS_portfolio_One.git"
+  },
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/tailwindCSS_portfolio_One/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/tailwindCSS_portfolio_One#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^1.1.7"
+  }
+}
