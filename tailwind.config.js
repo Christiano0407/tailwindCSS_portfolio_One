@@ -22,9 +22,18 @@ module.exports = {
         secondary: `#8FA206`,
         third: `#61AEC0`,
         white: `#FFFFFF`,
+        whitePlus: `#f2f2f2`,
         black: `#000000`,
         darkOne: `#111111`,
         darkPlus: `#333333`,
+        body: `#17171f`,
+        selectedtext: `#A3A3FF`,
+        theme: `#3F3FFF`,
+        nav: `#404053`,
+        secondaryPlus: `#9191AA`,
+        badge: `#3f3f51`,
+        inputBorder: `#565666`,
+        input: `#2A2A35`,
       },
       fontSize: {
         sm: ['12px', '14px'],
@@ -32,6 +41,9 @@ module.exports = {
         base: ['16px', '24px'],
         lg: ['20px', '28px'],
         xl: ['24px', '32px'],
+      },
+      fontFamily: {
+        poppins: ['Poppins', `sans-serif`],
       },
       screens: {
         // => @media (max-width: 320px) { ... } / 320px
