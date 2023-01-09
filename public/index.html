@@ -20,23 +20,52 @@
     <link rel="stylesheet" href="../public/css/main.css" />
     <title>Portfolio Web with Tailwind CSS && Vanilla Javascript</title>
   </head>
-  <body class="bg-body text-white font-poppins pb-12">
-    <header class="py-6" id="idHeader">
-      <div class="container" id="idContainer">
-        <div class="container">
-          <div class="">Christopher.dev</div>
-          <nav class="">
-            <a href="#" class="text-selectedtext">Home</a>
-            <a href="#work" class="">My Work</a>
-            <a href="#media" class="">Media</a>
-            <a href="#clients" class="">Clients</a>
-            <a href="#hire" class=""><button class="">Hire me</button></a>
-          </nav>
+  <body class="w-full bg-body text-white font-poppins pb-12">
+    <!-- === Header === -->
+    <header class="w-full py-6" id="idHeader">
+      <div
+        class="container flex items-center justify-between mobPlus:px-8 mx-auto sm:mx-auto md:mx-auto px-14 lg:px-24 w-full"
+      >
+        <div class="text-lg font-bold uppercase">Chris.dev</div>
+        <nav
+          class="mobPlus:hidden sm:flex justify-between items-center p-[1rem] sm:space-x-6 sm:text-sm md:space-x-12 lg:text-medium"
+        >
+          <a href="#" class="text-selectedtext">Home</a>
+          <a href="#work" class="">My Work</a>
+          <a href="#media" class="">Media</a>
+          <a href="#clients" class="">Clients</a>
+          <a href="#hirme"
+            ><button class="px-6 py-3 bg-theme rounded-md font-bold">
+              Hire me
+            </button></a
+          >
+        </nav>
+        <div class="sm:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-12 h-10 active:scale-90"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
+            />
+          </svg>
         </div>
       </div>
     </header>
-
-    <main class="main" id="idMain"></main>
+    <!-- ===  Hero Section ===-->
+    <main class="main" id="idMain">
+      <div class="flex flex-wrap sm:flex-nowrap">
+        <nav
+          class="inline-block lg:mr-24 lg:w-4 fixed left-percentage lg:hidden xl:block"
+        ></nav>
+      </div>
+    </main>
 
     <footer class=""></footer>
     <!-- === Javascript === -->

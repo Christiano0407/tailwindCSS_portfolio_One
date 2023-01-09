@@ -16,5 +16,5 @@
 }
 
 .main {
-  @apply w-full my-3 mx-auto p-2;
+  @apply w-full p-2 mt-16 flex items-center justify-center mx-auto;
 }
