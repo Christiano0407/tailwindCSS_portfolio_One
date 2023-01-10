@@ -309,9 +309,7 @@
               </div>
 
               <!-- === Client Info === -->
-              <div
-                class="flex flex-wrap justify-center text-center lg:text-left lg:block"
-              >
+              <div class="flex flex-wrap justify-center lg:text-left lg:block">
                 <h3 class="text-white text-3xl font-semibold">Apple, Inc.</h3>
 
                 <div
@@ -375,9 +373,91 @@
           </div>
         </section>
       </div>
-    </main>
+      <!-- === Formulary === -->
+      <div
+        class="container mt-24 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-20"
+      >
+        <section class="w-full p-1">
+          <h2 id="hire" class="secondary-title">Hire Me</h2>
+          <p class="section-paragraph">
+            Feel Free to to contact me any time, thought any question
+          </p>
 
-    <footer class="container h-52 bg-black mt-5 mx-auto p-2 w-full"></footer>
+          <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+            <div class="space-y-12 p-5">
+              <div>
+                <label class="text-white block mb-6 text-xl font-bold"
+                  >Name</label
+                >
+                <input
+                  type="text"
+                  class="w-full border border-input-Border bg-input px-4 py-4"
+                />
+              </div>
+              <div>
+                <label for="" class="text-white block mb-6 text-xl font-bold"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  class="w-full border border-input-border bg-input py-4 px-4"
+                />
+              </div>
+              <div>
+                <label for="" class="text-white block mb-6 text-xl font-bold"
+                  >Message</label
+                >
+                <input
+                  type="email"
+                  class="w-full border border-input-border bg-input py-4 px-4"
+                />
+              </div>
+              <div>
+                <label for="" class="text-white block mb-6 text-xl font-bold"
+                  >Send It!</label
+                >
+                <input
+                  type="email"
+                  class="w-full border border-input-border bg-input py-4 px-4"
+                />
+                <textarea
+                  name="email"
+                  id="idArea"
+                  cols="30"
+                  rows="10"
+                  class="w-full border border-input-border bg-input mt-5"
+                ></textarea>
+              </div>
+              <button class="px-6 py-2 bg-theme text-white font-bold">
+                Send It!
+              </button>
+            </div>
+            <div class="w-full mobPlus:hidden sm:hidden md:hidden lg:flex">
+              <figure>
+                <img
+                  class="bg-cover object-cover bg-center bg-no-repeat rounded-xl"
+                  src="../src/img/imgMobile3.jpg"
+                  alt="img"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- === Footer && Social Media && Contact === -->
+    <footer class="container bg-black mt-5 mx-auto p-2 w-full">
+      <section
+        class="w-full grid grid-flow-row mobPlus:grid-cols-1 mobPlus:block sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+      >
+        <div class="">
+          <div class="text-lg font-bold uppercase">Robert.dev</div>
+        </div>
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+      </section>
+    </footer>
     <!-- === Javascript === -->
     <script src="../src/js/index.js"></script>
   </body>
