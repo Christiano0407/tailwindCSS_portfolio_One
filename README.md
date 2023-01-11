@@ -14,6 +14,64 @@ Creating One Creative Portfolio Web  and Responsive with Tailwind CSS. Javascrip
 
 [Tailwind_Css](https://tailwindcss.com/);
 
+> Init npm Install Tailwind CSS
+
+```javascript
+
+npm install -D tailwindcss
+npx tailwindcss init
+
+```
+
+> Module CSS
+
+```code
+
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+```
+
+> CSS Tailwind
+
+```
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+```
+
+> Build Tailwind CSS
+
+```code
+
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+```
+
+## CDN (Content Delivery Network)
+
+[CDN](https://cdnjs.com/);
+
+## Google Font
+
+[Google_font](https://fonts.google.com/);
+
+## Font Awesome
+
+[FontAwesome](https://fontawesome.com/)
+
 ## Portfolio Project with Tailwind Css && Responsive Design && Javascript
 
 > Mobile
