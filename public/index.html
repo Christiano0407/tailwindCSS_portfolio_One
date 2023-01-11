@@ -157,7 +157,7 @@
           <img
             src="../src/img/man.png"
             alt="img-men"
-            class="w-3/4 mt-12 ml-12 sm:absolute md:-mt-0 right-0 -z-1"
+            class="w-3/4 mt-12 ml-12 absolute sm:absolute md:-mt-0 right-0 -z-1"
           />
         </div>
       </div>
@@ -182,12 +182,12 @@
               alt="grid-img"
             />
             <img
-              class="w-full bg-nav rounded-lg h-36 lg:h-72 object-cover bg-center bg-no-repeat bg-cover"
-              src="../src/img/assets/01_3D.jpg"
+              class="w-full bg-nav h-36 rounded-lg lg:h-72 object-cover bg-center bg-no-repeat bg-cover"
+              src="../src/img/assets/02_3d.jpg"
               alt="grid-img"
             />
             <img
-              class="w-full hidden rounded-lg mobPlus:block sm:block md:block bg-nav h-36 lg:h-72 object-cover bg-no-repeat bg-cover"
+              class="w-full bg-nav h-36 rounded-lg lg:h-72 object-cover bg-center bg-no-repeat bg-cover"
               src="../src/img/assets/3D.jpg"
               alt="grid-img"
             />
@@ -432,7 +432,9 @@
                 Send It!
               </button>
             </div>
-            <div class="w-full mobPlus:hidden sm:hidden md:hidden lg:flex">
+            <div
+              class="w-full hidden mobPlus:hidden sm:hidden md:hidden lg:flex"
+            >
               <figure>
                 <img
                   class="bg-cover object-cover bg-center bg-no-repeat rounded-xl"
@@ -446,62 +448,100 @@
       </div>
     </main>
     <!-- === Footer && Social Media && Contact === -->
-    <footer class="container bg-black mt-5 mx-auto p-2 w-full">
+    <footer class="w-full bg-black mt-5 mx-auto p-2">
+      <div class="w-full p-[1rem] my-3 mx-auto mobPlus:text-center">
+        <div
+          class="text-lg font-bold uppercase text-selectedtext mobPlus:text-center"
+        >
+          Robert.dev
+        </div>
+      </div>
+      <!-- === Social Media === -->
       <section
-        class="w-full grid grid-flow-row mobPlus:grid-cols-1 mobPlus:block sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
+        class="w-full grid grid-flow-row mobPlus:text-center mobPlus:grid-cols-1 mobPlus:flex block items-center justify-center sm:text-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
       >
-        <div class="">
-          <div class="text-lg font-bold uppercase">Robert.dev</div>
-        </div>
-
-        <div class="container">
+        <div class="container p-[10px] sm:text-center">
+          <div class="w-full mobPlus:text-center sm:text-center">
+            <h3 class="text-white text-lg text-center">Social Media</h3>
+          </div>
           <div class="w-full">
-            <h3 class="text-white text-lg">Social Media</h3>
-          </div>
-          <div>
-            <ul class="flex">
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Github</a></li>
-              <li><a href="#">Linkedin</a></li>
-              <li><a href="#">Tiktok</a></li>
-              <li><a href="#">Meta</a></li>
+            <ul
+              class="w-full flex justify-between p-[10px] my-0 m-auto mobPlus:justify-between items-center sm:w-[50%] md:justify-between"
+            >
+              <li>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+              </li>
             </ul>
           </div>
         </div>
 
-        <div class="container">
-          <div>
-            <h3>Contact</h3>
-          </div>
-          <div>
-            <ul class="">
-              <li><a href="#">Phone</a></li>
-              <li><a href="#">Email</a></li>
-              <li><a href="#">Linkedin</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div>
-            <h3>Other Contact and Work</h3>
-          </div>
-          <div>
-            <ul class="">
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">Dribble</a></li>
-              <li><a href="#">Github</a></li>
-              <li><a href="#">Pinterest</a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <section class="container">
         <div class="w-full">
-          <h2 class="text-white text-sm">Copyright@WebSiteDesign 20223</h2>
+          <div>
+            <h3 class="text-white text-lg text-center">Contact</h3>
+          </div>
+          <div>
+            <ul
+              class="container flex justify-evenly p-[10px] my-0 m-auto mobPlus: w-[50%] mobPlus:justify-between items-center sm:w-[50%] md:justify-between"
+            >
+              <li>
+                <a href="#"><i class="fa-regular fa-phone"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full">
+          <div>
+            <h3 class="text-white text-lg text-center">
+              Other Contact and Work
+            </h3>
+          </div>
+          <div class="w-full">
+            <ul
+              class="w-full flex justify-between p-[10px] my-0 m-auto mobPlus:justify-between items-center sm:w-[50%] md:justify-between"
+            >
+              <li>
+                <a href="#"><i class="fa-solid fa-pen-nib"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-pen-nib"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-github"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
+      <div class="w-full p-5 my-3 mx-auto text-center mobPlus:text-center">
+        <h2 class="text-white opacity-50 text-sm">
+          Copyright@WebSiteDesign 2023 Create With Tailwind CSS
+        </h2>
+      </div>
     </footer>
     <!-- === Javascript === -->
     <script src="../src/js/index.js"></script>
